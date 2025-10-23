@@ -1,0 +1,16 @@
+.botao-gradient {
+  background: linear-gradient(135deg, #ff7b00, #ff5500, #ff3000) !important;
+  border: none !important;
+  color: white !important;
+  font-weight: 600;
+}
+
+.botao-gradient:hover {
+  background: linear-gradient(135deg, #ff8c1a, #ff661a, #ff401a) !important;
+  transform: translateY(-1px);
+  box-shadow: 0 4px 12px rgba(255, 123, 0, 0.3);
+}
+
+.botao-gradient:active {
+  transform: translateY(0);
+}
