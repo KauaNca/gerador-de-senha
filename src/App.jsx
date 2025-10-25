@@ -109,3 +109,7 @@ function App() {
 }
 
 export default App;
+
+//estou colocando as funções aqui para facilitar a leitura do código e passando-as como props para o componente PasswordOptions.
+//dessa forma, o componente App gerencia o estado principal e a lógica de geração de senhas, enquanto o PasswordOptions lida apenas 
+//com a interface do usuário para selecionar opções.

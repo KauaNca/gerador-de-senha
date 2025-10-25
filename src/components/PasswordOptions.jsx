@@ -5,6 +5,8 @@ import Botao from "./Botao";
 
 function PasswordOptions({ opcoesCaracteres, comprimento, onAtualizarOpcao, onAtualizarComprimento, onSenhaGerada }) {
   const [nivel, setNivel] = useState("Forte");
+  //onAtualizarOpcao - é o setOpcoesCaracteres do App.jsx
+  //onAtualizarComprimento - é o setComprimento do App.jsx
 
   // Atualizar opção individual de caracteres
   function atualizarOpcao(chave, valor) {
@@ -89,6 +91,7 @@ function PasswordOptions({ opcoesCaracteres, comprimento, onAtualizarOpcao, onAt
           </label>
           <Barra
             value={comprimento}
+            defaultValue={16}
             max={32}
             min={8}
             step={1}
