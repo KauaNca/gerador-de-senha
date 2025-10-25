@@ -1,18 +1,22 @@
-# React + Vite
+# 🔐 Password Generator
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Um gerador de senhas moderno desenvolvido em **React**, com interface estilizada e interativa utilizando **Tailwind CSS** e **Ant Design Icons**.  
+O projeto permite **gerar, copiar e atualizar senhas** de forma dinâmica, oferecendo uma ótima experiência visual e prática.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Tecnologias Utilizadas
 
-## React Compiler
+- ⚛️ **React** — Framework JavaScript para criação da interface.
+- 🎨 **Tailwind CSS** — Estilização rápida e responsiva.
+- 🧩 **Ant Design Icons** — Ícones modernos (Copy / Reload).
+- 🔧 **Vite** — Ferramenta de build rápida e leve.
 
-The React Compiler is enabled on this template. See [this documentation](https://react.dev/learn/react-compiler) for more information.
+---
 
-Note: This will impact Vite dev & build performances.
+## 🧠 Conceitos Envolvidos
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **Componentização** — Separação de partes da interface em componentes reutilizáveis.
+- **Props e Estados (useState / useEffect)** — Comunicação entre componentes e atualização dinâmica de dados.
+- **Clipboard API** — Permite copiar o texto gerado diretamente para a área de transferência.
+- **Funções de atualização** — Possibilidade de regenerar a senha a qualquer momento.
